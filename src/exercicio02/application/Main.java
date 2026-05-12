@@ -23,5 +23,7 @@ public class Main {
         emp.porcentagem = sc.nextDouble();
         emp.aumento(emp.porcentagem);
         System.out.println(emp);
+
+        sc.close();
     }
 }
