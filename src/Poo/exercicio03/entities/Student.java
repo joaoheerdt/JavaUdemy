@@ -1,4 +1,4 @@
-package exercicio03.entities;
+package Poo.exercicio03.entities;
 
 public class Student {
     public String nome;

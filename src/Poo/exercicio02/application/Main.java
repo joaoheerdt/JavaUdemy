@@ -1,6 +1,6 @@
-package exercicio02.application;
+package Poo.exercicio02.application;
 
-import exercicio02.entities.Employee;
+import Poo.exercicio02.entities.Employee;
 import java.util.Locale;
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package exercicio01.application;
+package Poo.exercicio01.application;
 
-import exercicio01.entities.Rectangle;
+import Poo.exercicio01.entities.Rectangle;
 
 import java.util.Locale;
 import java.util.Scanner;

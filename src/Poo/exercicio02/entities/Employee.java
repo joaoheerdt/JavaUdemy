@@ -1,4 +1,4 @@
-package exercicio02.entities;
+package Poo.exercicio02.entities;
 
 public class Employee {
 

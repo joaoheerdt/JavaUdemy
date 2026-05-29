@@ -1,6 +1,6 @@
-package exercicio03.application;
+package Poo.exercicio03.application;
 
-import exercicio03.entities.Student;
+import Poo.exercicio03.entities.Student;
 
 import java.util.Locale;
 import java.util.Scanner;

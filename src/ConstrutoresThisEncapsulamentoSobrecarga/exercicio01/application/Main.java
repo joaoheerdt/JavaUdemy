@@ -1,6 +1,6 @@
-package exercicio04.application;
+package ConstrutoresThisEncapsulamentoSobrecarga.exercicio01.application;
 
-import exercicio04.entities.Account;
+import ConstrutoresThisEncapsulamentoSobrecarga.exercicio01.entities.Account;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -41,7 +41,7 @@ public class Main {
 
         account.deposit(depositValue);
 
-        System.out.println("Updated account data:");
+        System.out.println("Updatedd account data:");
         System.out.println(account);
 
         // SAQUE SALDO
