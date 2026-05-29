@@ -1,0 +1,60 @@
+package exercicio04.application;
+
+import exercicio04.entities.Account;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Account account;
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter account number: ");
+        int number = sc.nextInt();
+        sc.nextLine();
+
+        System.out.println("Enter account holder: ");
+        String holder = sc.nextLine();
+
+        System.out.print("Is there an initial deposit (y/n)? ");
+        char response = sc.next().charAt(0);
+
+        if (response == 'y') {
+            System.out.println("Enter initial deposit value:");
+            double initialDeposit = sc.nextDouble();
+            account = new Account(number, holder, initialDeposit);
+        } else {
+            account = new Account(number, holder);
+        }
+        // ATUALIZAÇÃO SALDO
+        System.out.println();
+        System.out.println("Account data: ");
+        System.out.println(account);
+
+        // DEPOSITO SALDO
+        System.out.println();
+        System.out.println("Enter a deposit value: ");
+        double depositValue = sc.nextDouble();
+
+        account.deposit(depositValue);
+
+        System.out.println("Updated account data:");
+        System.out.println(account);
+
+        // SAQUE SALDO
+
+        System.out.println();
+        System.out.println("Enter a withdraw value: ");
+        double withdrawValue = sc.nextDouble();
+        account.withdraw(withdrawValue);
+
+        System.out.println("Updated account data:");
+        System.out.println(account);
+
+        sc.close();
+
+    }
+}
