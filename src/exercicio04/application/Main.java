@@ -45,7 +45,6 @@ public class Main {
         System.out.println(account);
 
         // SAQUE SALDO
-
         System.out.println();
         System.out.println("Enter a withdraw value: ");
         double withdrawValue = sc.nextDouble();
