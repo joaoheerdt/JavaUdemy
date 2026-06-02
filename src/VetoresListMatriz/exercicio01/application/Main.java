@@ -1,4 +1,4 @@
-package VetoresAndList.exercicio01.application;
+package VetoresListMatriz.exercicio01.application;
 
 import java.util.Scanner;
 

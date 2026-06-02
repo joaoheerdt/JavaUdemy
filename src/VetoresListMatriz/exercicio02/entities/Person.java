@@ -1,4 +1,4 @@
-package VetoresAndList.exercicio02.entities;
+package VetoresListMatriz.exercicio02.entities;
 
 public class Person {
     private String name;
