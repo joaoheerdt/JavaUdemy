@@ -1,4 +1,4 @@
-package Vetores.exercicio03.entities;
+package VetoresAndList.exercicio03.entities;
 
 public class Guests {
     private String guest;

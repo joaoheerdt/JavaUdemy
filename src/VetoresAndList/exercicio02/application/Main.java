@@ -1,6 +1,6 @@
-package Vetores.exercicio02.application;
+package VetoresAndList.exercicio02.application;
 
-import Vetores.exercicio02.entities.Person;
+import VetoresAndList.exercicio02.entities.Person;
 
 import java.util.Locale;
 import java.util.Scanner;

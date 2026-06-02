@@ -1,6 +1,6 @@
-package Vetores.exercicio03.application;
+package VetoresAndList.exercicio03.application;
 
-import Vetores.exercicio03.entities.Guests;
+import VetoresAndList.exercicio03.entities.Guests;
 
 import java.util.Scanner;
 
