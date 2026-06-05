@@ -8,6 +8,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/EstruturasDeRepetição" />
       <excludeFolder url="file://$MODULE_DIR$/src/OrientadoObjeto" />
       <excludeFolder url="file://$MODULE_DIR$/src/PrimeirosConceitos" />
+      <excludeFolder url="file://$MODULE_DIR$/src/VetoresListMatriz" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
