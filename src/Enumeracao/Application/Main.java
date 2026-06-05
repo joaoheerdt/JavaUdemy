@@ -42,7 +42,7 @@ public class Main {
         for (int i = 1; i <= n; i++) {
             System.out.println("Enter #" + i + " item data:");
             System.out.print("Product name: ");
-            sc.nextLine(); // Limpeza do buffer do teclado (consome a quebra de linha pendente do nextInt)
+            sc.nextLine();
             String productName = sc.nextLine();
             System.out.print("Product price: ");
             double productPrice = sc.nextDouble();
