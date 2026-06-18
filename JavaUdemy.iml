@@ -10,6 +10,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/PrimeirosConceitos" />
       <excludeFolder url="file://$MODULE_DIR$/src/VetoresListMatriz" />
       <excludeFolder url="file://$MODULE_DIR$/src/Enumeracao" />
+      <excludeFolder url="file://$MODULE_DIR$/src/HerancaPolimorfismo" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
